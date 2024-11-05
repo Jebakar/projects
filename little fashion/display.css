@@ -1,0 +1,575 @@
+.body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+.color{
+    color: #717571;
+}
+head{
+    width: auto;
+    height: auto;
+    background-color:white;
+    box-sizing: border-box;
+    border: 1px solid black;
+    list-style: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+.title{
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    margin-left: 170px;
+    display: inline;
+    
+    
+    
+}
+.title h1{
+    cursor: pointer;
+    display: inline;
+    font-family: 'Inter', sans-serif;
+}
+.title h1:hover{
+    color: orangered;
+}
+.topnav{
+    overflow: hidden;
+    font-size: 35px;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: inline;
+    margin-left: 400px;
+    
+}
+.topnav li{
+    display: inline;
+    margin: 20px ; 
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    
+}
+.topnav ul{
+    display: inline;
+    margin-bottom: 0px;
+}
+.topnav a:hover,.topnav a.active,.sign i:hover,.shop:hover,.title h1 span{
+    color: orangered;
+}
+.topnav ul li a{
+    text-decoration: none;
+    padding: 0px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+.sign{
+    display: inline;
+    margin-left: 300px;
+    
+}
+.sign a{
+    font-size: 40px; 
+}
+.sign i{
+    margin-top: 35px; 
+    margin-left: 50px; 
+    
+}
+.shop {
+    display: inline;
+    margin-top: 35px;   
+}
+.shop:hover{
+    fill:orangered;   
+}
+.image{
+    background-image: url("./images/two-business-partners-working-together-office-computer.jpeg");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-size: 70px;
+    font-family: 'Inter', sans-serif;
+    font: bold;
+    color: white;
+    margin-left: 200px;
+    padding-top: 300px;
+    margin-top: 50px;
+} 
+.content{
+    color:white;
+    margin-left: 200px;
+    font-size: 50px;
+    
+    
+    
+}  
+.button1{
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 250px;
+    background-color: black;
+    border-radius: 70px;
+    color: white;
+    text-transform: uppercase;
+    padding: 35px 35px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 40px; 
+    margin-bottom: 300px;
+}
+.button1:hover{
+    background-color: orangered;  
+}  
+.intro{
+    display: inline;
+}
+.get{
+    font-size: 55px;
+    margin-top: 200px;
+    margin-left:800px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: bold;
+}
+.get h2 span{
+    color: orangered;
+}
+.cap{
+    display: inline;
+    
+
+}
+.menu{
+    
+    margin-bottom: 100px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 300px;
+    font-family: 'Inter' , sans-serif;
+
+    
+} 
+.menu li{
+    
+    font-size: 40px;
+    font-weight: bold;
+
+} 
+.menu ul{
+    list-style-type: none;
+    
+    background-color: white;
+    
+
+}  
+.menu li a{
+    color: #717571;
+    text-decoration: none;
+    display: block;
+    margin-left: 200px;
+    border-left: 1px solid gray;
+    border-radius: 0px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    
+    padding-left: 15px;
+    
+} 
+.menu li a:hover{
+    color: orangered;
+    border-left-color: orangered;
+
+}
+.image1{
+    height: auto;
+    width: auto;
+    display: inline;
+    margin-left: 600px;
+    position: relative;
+    margin-top: 100px;
+    
+}
+.small{
+    display: inline-block;
+    font-size: 55px;
+    margin-left: 100px;
+    font-family: 'Inter' , sans-serif;
+
+
+}
+.small h4 span{
+    color: orangered; 
+}
+.small h4{
+    display: inline;
+    font-size: 60px;
+    
+    
+    
+    
+}
+.small p{
+    font-size: 40px;
+    color: #717275;
+    display: inline;
+    
+}
+.small a{
+    color: #717571;
+    text-decoration: none;
+    display: inline;
+}
+.small a:hover{ 
+    color: orangered;
+}
+.menu a.intro{
+    color: orangered;
+
+}
+.menu li a{
+    padding-bottom: 50px;
+}
+.us{
+    font-size: 30px;
+    display: inline;
+}
+.image2{
+    background-color: lavender;
+    margin-top: 250px;
+    display: flex;
+}
+.retail{
+    font-size: 60px;
+    display: inline;
+}
+.retail h2{
+    margin-left: 150px;
+    margin-top: 200px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: bold;
+}
+.retail h2 span{
+    color: orangered;
+}
+.retail p{
+    display: block;
+    margin: 20px;
+    color: #717571;
+    margin-left: 150px;
+}
+.image2 a{
+    color: #717571;
+    text-decoration: none;
+    
+}
+.image2 a:hover{
+    color: orangered;
+}
+.explore{
+    font-size: 30px;
+    margin-left: 150px;
+    
+}
+.product{
+    display: inline;
+    font-size: 60px;
+    font-family: 'Inter' , sans-serif;
+    
+
+}
+.product h2{
+    margin-top: 200px;
+    text-align: center;
+
+}
+.row{
+    box-sizing: border-box; 
+    display: flex;
+    margin-left: 200px;
+    
+}
+.column{
+    padding: 40px; 
+    margin-right: 50px;
+}  
+.columns{
+    background-image: url("./images/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg");
+    height: 600px;
+    width: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline;
+}
+.columns h5{
+    display: inline;
+    margin-bottom: auto;
+    color: black;
+    
+}
+.list h5:hover{
+    color: orangered;
+}
+.columns p{
+    display: block;
+    color: #717571;
+    font-size: 35px;
+}
+.rate{
+    color: #717571;
+    margin-left: 300px;
+    font-size: 0.700em;
+    
+}
+.list{
+    margin-top: 550px;
+    
+}
+.list2 h5:hover{
+    color: orangered;
+}
+.columns span{
+    font-size: 30px;
+    margin-right: 300px;
+    background-color: white;
+    color: #717571;
+    padding: 10px;
+    
+}
+.icon{
+    color: white;    
+}
+.icon:hover{
+    color: orangered;   
+}
+.list a{
+    text-decoration: none;
+}
+.columns2{
+    background-image: url("./images/jordan-nix-CkCUvwMXAac-unsplash.jpeg");
+    height: 600px;
+    width: 600px;
+    margin-left: 200px;
+    color: #717571;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline;
+}
+.columns2 span{
+    font-size: 30px;
+    margin-right: 300px;
+    background-color: white;
+    padding: 10px;
+}
+.icon2{
+    color: white;
+    
+    
+}
+.icon2:hover{
+    color: orangered;
+}
+.list2 h5{
+    display: inline;
+    margin-top: 70px;
+    color: black;
+}
+.list2 p{
+    display: block;
+    font-size: 35px;
+    margin-top: 35px;
+}
+.list2 .rate2{
+    margin-left: 200px;
+    font-size: 0.700em;
+    
+}
+.list2{
+    margin-top: 550px;
+}
+.list2 a{
+    text-decoration: none;
+}
+.columns3{
+    background-image: url("./images/nature-zen-3Dn1BZZv3m8-unsplash.jpeg");
+    height: 600px;
+    width: 700px;
+    margin-left: 250px;
+    color: #717571;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline;
+}
+.icon3{
+    color: white;
+    margin-left: 500px;
+}
+.icon3:hover{
+    color: orangered;
+}
+.list3 h5{
+    display: inline;
+    color: black;
+    margin-top: 60px;
+
+}
+.list3 p{
+    display: block;
+    font-size: 35px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.list3 .rate3{
+    margin-left: 200px;
+    color: #717571;
+    font-size: 0.700em;
+}
+.list3{
+    margin-top: 550px;
+}
+.list3 h5:hover{
+    color: orangered;
+}
+.list3 a{
+    text-decoration: none;
+}
+.view{
+    display: block;
+    margin-top: 400px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Inter' , sans-serif;
+}
+.view a{
+    text-decoration: none;
+    color: #717571; 
+    
+}
+.view a:hover{
+    color: orangered;
+}
+.footer{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    box-sizing: border-box;
+    margin-top: 200px;     
+}
+.co1{
+    display: inline-block;
+}
+.co1 a{
+    color: #717571;
+    text-decoration: none;   
+    display: inline-block;
+}
+.co1 h4{
+    font-size: 65px;
+    color: white;
+    margin-left: 250px;
+    margin-top: 200px;
+    display: inline-block;
+}
+.co1 a:hover{
+    color: orangered;
+}
+.co1 p{
+    font-size: 33px;
+    color: #717571;
+    margin-left: 250px;   
+}
+.co1 p a:hover{
+    color: orangered;
+}
+.co2{
+    display: inline-block;
+    
+}
+.co2 h5{
+    font-size: 55px;
+    color: white;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-bottom: 125px;   
+}
+.co2 ul{
+    display:inline-block;   
+}
+.footer-menu{
+    overflow: hidden;
+    width: auto;
+    font-size: 35px; 
+    margin-left: 200px; 
+    padding: auto;
+    display: inline-block;  
+}
+.footer-menu a{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #717571;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    
+}    
+.footer-menu a:hover{
+    color: white;
+}
+.footer-menu a.menu1{
+    margin-left: 100px;
+}
+.footer-menu a.menu2{
+    margin-left: 300px;
+}
+.footer-menu a.menu3{
+    margin-left: 100px;
+    
+}
+.footer-menu a.menu4{
+    margin-left: 165px;
+}
+.footer-menu a.menu5{
+    margin-left: 100px;
+    
+}
+.social{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+.social h5{
+    color: white;
+    font-size: 55px;
+    margin-left: 300px;
+    
+    
+    
+}
+.social .icon{
+    margin-top: 10px;
+    overflow: hidden;
+    font-size: 40px;
+    margin-left: 270px;
+    
+}
+.social .icon  a{
+    color: #717571;
+    margin-left: 30px;
+    
+}
+.social .icon a:hover{
+    color: white;
+}
+.social .icon i{
+    margin-bottom: 120px;
+}
+
+    
+
